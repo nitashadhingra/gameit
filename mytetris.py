@@ -20,7 +20,7 @@ def runtetris():
         pygame.display.update()
         for event in pygame.event.get(QUIT):
             pygame.quit()
-            sys.exit()
+            
 
 def matrix():
     cols=15
